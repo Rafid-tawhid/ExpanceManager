@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_color"
+
+
+    tools:context=".Reg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/ic_wave"
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:fontFamily="sans-serif-smallcaps"
+
+            android:gravity="center_horizontal"
+            android:padding="15dp"
+            android:text="Regestration"
+            android:textColor="#000000"
+            android:textSize="38sp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:id="@+id/email_reg"
+        android:textSize="24dp"
+        android:background="@drawable/ed_bg"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="8dp"
+
+        android:shadowColor="@color/colorPrimary">
+
+    </EditText>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_text_input_layout"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingClass">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/pass_reg"
+            android:inputType="textPassword"
+            android:textSize="24dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_margin="8dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/ed_bg"
+            android:shadowColor="@color/colorPrimary">
+
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textSize="22dp"
+        android:id="@+id/btn_reg"
+        android:layout_gravity="center"
+        android:background="@drawable/btnbg"
+        >
+
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_wave__6"
+        >
+
+    </TextView>
+
+</LinearLayout>

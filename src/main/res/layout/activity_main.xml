@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_color"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+  android:background="@drawable/ic_wave"
+    ></TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Login"
+
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:textSize="35sp"
+                android:textColor="#000000"
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:id="@+id/email_login"
+        android:textSize="24dp"
+        android:background="@drawable/ed_bg"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="8dp"
+        
+        android:shadowColor="@color/colorPrimary">
+
+    </EditText>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_text_input_layout"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:ignore="MissingClass">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:paddingRight="15dp"
+            android:id="@+id/pass_login"
+            android:inputType="textPassword"
+            android:textSize="24dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_margin="8dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/ed_bg"
+            android:shadowColor="@color/colorPrimary">
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Forget Password?"
+        android:id="@+id/fg_login"
+        android:textColor="#000000"
+        android:shadowColor="@color/colorAccent"
+        android:shadowDx="2"
+        android:shadowDy="5"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:id="@+id/ca_login"
+        android:text="Don't have a account? Create here"
+        android:textSize="19dp">
+
+    </TextView>
+    
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/login_btn"
+        android:layout_gravity="center"
+        android:background="@drawable/btnbg"
+        >
+
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:src="@drawable/fb"
+           android:layout_marginLeft="135dp"
+            android:layout_marginTop="15dp"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:src="@drawable/gg"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/ic_wave__5">
+
+    </TextView>
+
+
+
+</LinearLayout>

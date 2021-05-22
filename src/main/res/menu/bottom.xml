@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home1"
+        android:title="Dashboard"
+
+
+        />
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/add1"
+        android:title="Addition" />
+
+    <item
+        android:id="@+id/navigation_minus"
+        android:icon="@drawable/minus1"
+        android:title="Expenses" />
+
+
+
+</menu>

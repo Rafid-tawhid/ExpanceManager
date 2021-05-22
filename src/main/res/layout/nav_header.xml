@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+
+  >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+     android:background="#5000ca">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:text="Expense Manager"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#5000ca"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="@drawable/ic_wave">
+
+    </TextView>
+
+
+</LinearLayout>
